@@ -1,0 +1,89 @@
+body{
+  font-family: sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#container{
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+header{
+  color: limegreen;
+}
+
+header img{
+  display: block;
+  height: 80px;
+  margin: auto;
+}
+
+h2, nav{
+  text-align: center;
+}
+
+#contenuto{
+  width: 90%;
+  margin: auto;
+  padding: 100px 0 ;
+  
+  
+}
+
+nav{
+  background-color: limegreen;
+  padding: 10px;
+  margin: 0;
+}
+
+article{
+  margin-bottom: 5px;
+}
+
+h3{
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.monop_dati span, .monop_stato span{
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.monop_stato span{
+  display: block;
+  margin: 5px 0 3px 15px;
+}
+
+.metriDaTe{
+  background-color: rgba(255, 255, 255, .15);
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+}
+
+.barra-carica{
+  border-radius: 5px;
+  height: 20px;
+  margin: 3px 0 0 15px;
+}
+
+.barra-carica.b-c10{
+  background-color: #BE4141;
+  width: 10%;
+}
+
+.barra-carica.b-c25{
+  background-color: orange;
+  width: 25%;
+}
+
+.barra-carica.b-c40{
+  background-color: limegreen;
+  width: 40%;
+}
